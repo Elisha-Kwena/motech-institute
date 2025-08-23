@@ -13,7 +13,7 @@ export default function Subscribe(){
                 <p className="text-xl text-black text-center max-w-5xl mx-auto">Subscribe to our newsletter and be the first to know about new programs, events, research breakthroughs, and campus updates.</p>
             </div>
             <form action="" className="w-full flex items-center justify-center gap-4">
-                <input type="text" className="text-black p-3 rounded-md border w-[30%]" placeholder="Email" />
+                <input type="text" className="text-black p-3 rounded-md border lg:w-[30%]" placeholder="Email" />
                 <button className="bg-red-600 p-3 text-white rounded-md font-extrabold px-6">Subscribe</button>
             </form>
         </section>

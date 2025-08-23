@@ -6,17 +6,18 @@ import Logo from "../../Logo"
 import NavContact from "../../NavContact"
 import { NavItems } from "./NavItems"
 
+import ToggleNavbar from "../../buttons/ToggleNavbar"
 export default function DesktopNav(){
     return(
         <>
-        <header className="w-full flex flex-col bg-white fixed top-0 left-0 z-50">
-            <div className="w-full bg-blue-800 flex ">
-                <div className="w-12 bg-white h-8 relative">
+        <header className="w-full flex flex-col bg-white fixed top-0 left-0 z-50 overflow-hidden">
+            <div className="w-full bg-blue-800 flex justify-between lg:p-0 py-1">
+                <div className="w-12 bg-white h-8 hidden lg:block relative">
                     <div className="absolute w-14 h-8 top-2 -right-8 bg-white rotate-45"></div>
                 </div>
-                <div className="flex-1 flex items-center justify-between pl-8">
-                    <h1 className="text-white font-bold">Join us and be a part of the success</h1>
-                    <div className="flex items-center justify-between gap-2 pr-20">
+                <div className="flex-1 flex items-center justify-between pl-2 lg:pl-8">
+                    <h1 className="text-white font-bold lg-text-md text-[16px]">Join us and be a part of the success</h1>
+                    <div className="flex items-center justify-between gap-2 pr-2 lg:pr-20">
                       {socialLinks.map((link: NavItem) => {
                         // Get the icon component from the socialIcons map using the link title
                         const IconComponent = socialIcons[link.title];
@@ -44,13 +45,16 @@ export default function DesktopNav(){
                     </div>
                 </div>
             </div>
-            <div className="w-[90%] mx-auto flex items-center justify-between py-1">
+            <div className="w-full lg:w-[90%] mx-auto flex items-center justify-between py-1 lg:px-0 px-1">
                 <Logo/>
-                <div className="flex-1">
+                <div className="hidden lg:block flex-1">
                     <NavContact/>
                 </div>
+                <div className="lg:hidden flex items-center justify-center">
+                    <ToggleNavbar/>
+                </div>
             </div>
-            <div className="w-full p-1 bg-blue-800">
+            <div className="hidden lg:block w-full p-1 bg-blue-800">
                 {/* Navitems here  */}
                 <div className="w-[90%] mx-auto">
                     <NavItems items={mainNav} />

@@ -14,7 +14,7 @@ export default function Footer (){
     return(
         <footer className="w-full py-10 bg-blue-950">
             <div className="w-[95%] mx-auto flex flex-col gap-2">
-                <div className="top w-full grid grid-cols-4 gap-8 border-b-[2px] border-gray-300 pb-10">
+                <div className="top w-full grid grid-cols-1 lg:grid-cols-4 gap-8 border-b-[2px] border-gray-300 pb-10">
                         <div className="flex flex-col items-start justify-start gap-2">
                             <Link href="/" className="w-full flex items-center justify-start gap-2">
                                 <div className="w-16 h-16 relative flex items-center justify-center">

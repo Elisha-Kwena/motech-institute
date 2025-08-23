@@ -22,8 +22,8 @@ export default function NewsSection({
   const featuredNews = newsArticles.slice(0, limit);
 
   return (
-    <section className="py-16 bg-white mt-40">
-      <div className="container mx-auto px-4">
+    <section className="bg-white w-full block">
+      <div className="container-div mx-auto px-4 pt-4">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

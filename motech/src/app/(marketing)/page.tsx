@@ -9,7 +9,7 @@ import Subscribe from "@/components/sections/home/Subscribe";
 export default function Home() {
   return (
     <>
-    <div className="mt-[140px] w-full">
+    <div className="lg:mt-[140px] mt-[100px] w-full">
        <div className="w-full relative">
           <Hero/>
           <NewsSection/>
@@ -18,7 +18,7 @@ export default function Home() {
           <ExamBody/>
           <Admission/>
           <Subscribe/>
-          <div className="fixed top-0 left-0 w-full h-screen -z-10">
+          <div className="fixed top-0 left-0 bottom-0 w-full h-screen -z-10 mt-0">
             <Image
               src="/images/stats/banner.jpg"
               alt="graduating students"

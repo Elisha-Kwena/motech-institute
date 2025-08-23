@@ -73,19 +73,19 @@ export default function HeroCaroussel() {
                 </div>
                 
                 {/* Content */}
-                <div className="z-20 w-full text-start h-full items-start justify-center relative flex flex-col gap-4 px-4 md:px-40"> {/* Added responsive padding */}
-                  <h1 className="text-start font-extrabold uppercase text-white text-3xl md:text-5xl ml-0"> {/* Added text-balance and max-width */}
+                <div className="z-20 w-full text-start lg:h-[80vh] h-[45vh] items-start justify-center pt-14 lg:pt-0 relative flex flex-col gap-4 px-4 md:px-40"> {/* Added responsive padding */}
+                  <h1 className="text-start font-extrabold uppercase text-white text-xl md:text-5xl ml-0"> {/* Added text-balance and max-width */}
                     {item.title}
                   </h1>
                   <p className="text-lg md:text-xl font-semibold text-start text-white"> {/* Added max-width */}
                     {item.description}
                   </p>
-                  <div className="w-full flex items-center justify-start gap-4 mt-8 flex-wrap"> {/* Added flex-wrap */}
+                  <div className="w-full flex items-center justify-start gap-4 lg:mt-8 flex-wrap"> {/* Added flex-wrap */}
                     {item.link.map((path, index) => (
                       <Link 
                         key={path.link} 
                         href={path.link} 
-                        className={`text-white capitalize border-2 rounded-md font-bold p-3 md:p-4 transition-all duration-300 ease-in-out hover:scale-105 ${
+                        className={`text-white capitalize border-2 rounded-md font-bold p-2 md:p-4 transition-all duration-300 ease-in-out hover:scale-105 ${
                           index === 0 
                             ? 'border-blue-600 bg-blue-600 hover:bg-blue-700' 
                             : 'border-white bg-transparent hover:bg-white/20'

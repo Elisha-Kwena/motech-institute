@@ -137,7 +137,7 @@ export const mainNav: NavItem[] = [
 export const socialLinks: NavItem[] = [
   { 
     title: "Facebook", 
-    href: "https://facebook.com/college", 
+    href: "https://www.facebook.com/profile.php?id=61572381666851#", 
     external: true,
     icon: FaFacebookF // Assign the icon component
   },

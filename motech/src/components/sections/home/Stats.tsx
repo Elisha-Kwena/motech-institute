@@ -46,10 +46,10 @@ export default function Stats(){
         <>
             <section className="py-14 w-full relative bg-blue-700/30">
             <div className="w-full flex flex-col gap-1 items-center justify-center">
-                <h1 className="text-white font-extrabold capitalize text-5xl">why</h1>
-                <h1 className="text-white font-extrabold capitalize text-5xl">Motech technology training institute</h1>
+                <h1 className="text-white font-extrabold capitalize text-2xl lg:text-5xl">why</h1>
+                <h1 className="text-white font-extrabold capitalize text-2xl lg:text-5xl">Motech technology training institute</h1>
             </div>
-                <div className=" w-full h-full grid grid-cols-5  place-items-center items-start pt-6 mt-8">
+                <div className=" w-full lg:h-full grid grid-cold-1 lg:grid-cols-5 gap-10 lg:gap-4 place-items-center items-start pt-6 mt-8">
                     {stats.map(item =>(
                         <div key={item.id} className="group flex items-center justify-center flex-col gap-1 z-10">
                             <div className="banner relative w-28 h-28 bg-blue-800 border-blue-800 rounded-br-[70%] rounded-tl-[30%] rounded-tr-[30%] rounded-bl-[20%] rotate-12 flex items-center justify-center border-[3px]">

@@ -11,7 +11,7 @@ export default function MarketingLayout({children}: MarketingLayoutProps){
         <>
             <div className="flex flex-col min-h-screen">
                 <DesktopNav />
-                <main className="flex-1">
+                <main className="w-full flex-1">
                     {/* This is where the page content (e.g., page.tsx) will be injected */}
                     {children}
                 </main>

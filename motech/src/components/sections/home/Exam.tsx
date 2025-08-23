@@ -43,7 +43,7 @@ export default function ExamBody(){
                     key={item.id}
                     className="group"
                     href={item.link}>
-                        <div className="w-40 h-40 relative flex items-center justify-center">
+                        <div className="w-20 lg:w-40 h-20 lg:h-40 relative flex items-center justify-center">
                             <Image
                             src={item.banner}
                             alt={item.label}
