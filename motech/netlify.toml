@@ -1,7 +1,7 @@
 [build]
   base = "motech"    # ← Add this line!
   command = "npm run build"
-  publish = "motech/.next"  # ← Update this!
+  publish = ".next"  # ← Update this!
 
 [[headers]]
   for = "/*"
