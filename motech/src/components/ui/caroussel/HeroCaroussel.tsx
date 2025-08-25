@@ -58,7 +58,7 @@ export default function HeroCaroussel() {
       >
         {herodata.map(item =>(
             <SwiperSlide key={item.id}>
-              <div className="w-full h-full relative">
+              <div className="w-full h-full relative z-10">
                 {/* Background Image */}
                 <div className="w-full h-full absolute top-0 left-0 z-0"> {/* Changed to z-0 */}
                   <Image

@@ -53,7 +53,7 @@ export function NavItems({ items }: NavItemsProps) {
 
             {/* Dropdown Menu */}
             {hasSubitems && isOpen && (
-              <div className="absolute top-8 left-0 mt-1 w-56 bg-white border border-gray-200 rounded-md shadow-lg z-50">
+              <div className="absolute top-8 left-0 mt-1 w-56 bg-white border z-50 border-gray-200 rounded-md shadow-lg z-50">
                 <div className="p-2">
                   {item.subitems?.map((subitem) => (
                     <Link
