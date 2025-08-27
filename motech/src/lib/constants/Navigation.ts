@@ -61,50 +61,25 @@ export const mainNav: NavItem[] = [
     href: "/admission",
     description: "Join our community",
   },
-  {
-    title: "Campus Life",
-    href: "/campus-life",
-    description: "Student experience",
-    subitems: [
-      { title: "Housing & Dining", href: "/campus-life/housing" },
-      { title: "Student Organizations & Clubs", href: "/campus-life/organizations" },
-      { title: "Athletics & Recreation", href: "/campus-life/athletics" },
-      { title: "Arts & Culture", href: "/campus-life/arts" },
-      { title: "Health & Wellness Services", href: "/campus-life/health" },
-      { title: "Student Support Services", href: "/campus-life/support" },
-    ],
-  },
+  // {
+  //   title: "Campus Life",
+  //   href: "/campus-life",
+  //   description: "Student experience",
+  // },
   {
     title: "News & Events",
     href: "/news",
     description: "Latest updates",
-    subitems: [
-      { title: "University Newsroom", href: "/news" },
-      { title: "Calendar of Events", href: "/events" },
-      { title: "Social Media Feeds", href: "/social", external: true },
-    ],
   },
   {
-    title: "Current Students",
+    title: "Student Portal",
     href: "/students",
     description: "Resources and portal",
-    subitems: [
-      { title: "Student Portal", href: "https://portal.college.edu", external: true },
-      { title: "Email Access", href: "https://mail.college.edu", external: true },
-      { title: "Class Schedules & Registration", href: "/students/registration" },
-      { title: "Career Services", href: "/students/careers" },
-      { title: "IT Help Desk", href: "/students/it-help", external: true },
-    ],
   },
   {
     title: "Alumni & Friends",
     href: "/alumni",
     description: "Stay connected",
-    subitems: [
-      { title: "Alumni Association", href: "/alumni/association" },
-      { title: "Events & Reunions", href: "/alumni/events" },
-      { title: "Ways to Give", href: "/alumni/give" },
-    ],
   },
   {
     title: "Contact",

@@ -95,7 +95,7 @@ export const programs: Program[] = [
     id: '2',
     title: 'School of Health Sciences',
     slug: 'school-of-health-sciences',
-    description: 'Prepare for a rewarding career in healthcare. Our programs, from nursing to medical lab technology, combine rigorous theory with practical clinical experience.',
+    description: 'Prepare for a rewarding career in healthcare. Our programs combine rigorous theory with practical clinical experience.',
     banner: '/images/programs/health-banner.jpg',
     stats: '100% certification pass rate',
     cta: 'Explore Health Science Programs',
@@ -141,7 +141,15 @@ export const programs: Program[] = [
     cta: 'Explore Engineering Programs',
     link: '/academics/engineering',
     // Course data for Engineering is not available in the provided brochure.
-    courses: []
+    courses: [
+      {
+        name:"Electrical Engineering",
+        levels:["Certificate"],
+        duration:["2 years"],
+        examBody:"KNEC",
+        fee: 'Kshs. 15,000 per term'
+      }
+    ]
   },
   {
     id: '4',
