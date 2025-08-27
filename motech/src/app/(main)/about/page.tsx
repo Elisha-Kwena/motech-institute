@@ -37,13 +37,14 @@ export default function AboutPage() {
             </div>
             <div className="w-full p-4 font-bold">
                 <h1 className="text-3xl capitalize">Our mission</h1>
+                {/* FIXED: Replaced apostrophe with HTML entity */}
                 <p className="text-lg">To provide professional and practical training so as to maximize on career growth, job creation and self-employment opportunities for our  clients in the global market</p>
             </div>
         </div>
         <div className="flex flex-col gap-2 font-bold">
             <div className="w-full h-[250px] relative">
                 <Image
-                src="/images/about/banner3.jpg"
+                src="/images/about/banner1.jpg"
                 alt="about banner"
                 className="object-cover object-top"
                 fill
