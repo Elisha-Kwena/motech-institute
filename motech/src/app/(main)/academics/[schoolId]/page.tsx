@@ -3,13 +3,11 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-// Define the props for the page component.
-// Corrected to satisfy the 'PageProps' constraint by including searchParams.
+// Update the props interface to handle Promise
 interface CoursePageProps {
-  params: {
+  params: Promise<{
     schoolId: string;
-  };
-  searchParams?: {};
+  }>;
 }
 
 // This function is crucial. It tells Next.js which pages to build at a static site.
@@ -21,9 +19,12 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function CoursePage({ params }: CoursePageProps) {
+export default async function CoursePage({ params }: CoursePageProps) {
+  // Await the params promise to get the actual values
+  const resolvedParams = await params;
+  
   // Use the slug from the URL to find the matching program.
-  const program = programs.find((p) => p.slug === params.schoolId);
+  const program = programs.find((p) => p.slug === resolvedParams.schoolId);
 
   // If no program is found for the given slug, show a 404 page.
   if (!program) {
@@ -52,8 +53,8 @@ export default function CoursePage({ params }: CoursePageProps) {
           <h1 className="text-3xl lg:text-6xl text-blue-200 font-extrabold">{program.title}</h1>
         </div>
       </div>
-      <div className="w-full lg:w-[90%] mx-auto mt-10 px-2 lg:px-0">
-        <p className="text-lg text-gray-700 max-w-5xl mx-auto text-center mb-8">{program.description}</p>
+      <div className="w-full lg:w-[90%] mx-auto mt-10 lg:p-0 px-2">
+        <p className="text-lg text-gray-700 max-w-5xl mx-auto text-center mb-8 px-4">{program.description}</p>
         
         {/* courses offered */}
         <div className="w-full bg-white rounded-md p-6 shadow-md border border-gray-200 overflow-x-auto">
