@@ -4,10 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Define the props for the page component.
+// Corrected to satisfy the 'PageProps' constraint by including searchParams.
 interface CoursePageProps {
   params: {
     schoolId: string;
   };
+  searchParams?: {};
 }
 
 // This function is crucial. It tells Next.js which pages to build at a static site.
@@ -50,8 +52,8 @@ export default function CoursePage({ params }: CoursePageProps) {
           <h1 className="text-3xl lg:text-6xl text-blue-200 font-extrabold">{program.title}</h1>
         </div>
       </div>
-      <div className="w-full lg:w-[90%] mx-auto mt-10 lg:p-0 px-2">
-        <p className="text-lg text-gray-700 max-w-5xl mx-auto text-center mb-8 px-4">{program.description}</p>
+      <div className="w-full lg:w-[90%] mx-auto mt-10 px-2 lg:px-0">
+        <p className="text-lg text-gray-700 max-w-5xl mx-auto text-center mb-8">{program.description}</p>
         
         {/* courses offered */}
         <div className="w-full bg-white rounded-md p-6 shadow-md border border-gray-200 overflow-x-auto">
