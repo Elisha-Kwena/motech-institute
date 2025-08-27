@@ -2,11 +2,10 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import Logo from "../../Logo"
 
 import Contact from "./Contact"
 import { footerNav } from "@/lib/constants/Footer"
-import { socialLinks, socialIcons, mainNav } from "@/lib/constants/Navigation"
+import { socialLinks, socialIcons } from "@/lib/constants/Navigation"
 import { NavItem } from "@/lib/constants/Navigation"
 import { legalLinks } from "@/lib/constants/Navigation"
 export default function Footer (){

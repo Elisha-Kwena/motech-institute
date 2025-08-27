@@ -27,7 +27,7 @@ export default function AcademicsPage() {
           Our college is dedicated to providing an unparalleled educational experience across a wide range of disciplines. We believe that learning is a journey of discovery, and our academic programs are crafted to inspire curiosity, foster innovation, and prepare you for a future of success. From the rigorous foundations of our core curricula to specialized professional training, we offer a pathway for every ambition.
         </p>
         <p className="text-lg text-gray-700 mt-4 leading-relaxed">
-          Explore our offerings through the links above to find the right program for you. Whether you're looking to dive into a new field, advance your career, or simply expand your knowledge, our diverse schools and colleges are here to support your goals.
+          Explore our offerings through the links above to find the right program for you. Whether you are looking to dive into a new field, advance your career, or simply expand your knowledge, our diverse schools and colleges are here to support your goals.
         </p>
       </div>
 

@@ -1,6 +1,7 @@
 // src/components/news/NewsCard.tsx
 import Link from 'next/link';
 import { NewsArticle } from '@/types/news';
+import Image from 'next/image';
 
 interface NewsCardProps {
   article: NewsArticle;
@@ -10,10 +11,11 @@ export default function NewsCard({ article }: NewsCardProps) {
   return (
     <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       {/* Image */}
-      <div className="aspect-video relative">
-        <img
+      <div className="aspect-video w-full h-[250px] relative">
+        <Image
           src={article.imageUrl}
           alt={article.title}
+          fill
           className="w-full h-full object-cover"
         />
         {/* Category Badge */}

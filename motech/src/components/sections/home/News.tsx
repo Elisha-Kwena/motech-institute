@@ -1,9 +1,7 @@
 // src/components/sections/NewsSection.tsx
 import Link from 'next/link';
-import { NewsArticle } from '@/types/news';
 import { newsArticles } from '@/lib/data/News';
 import NewsCard from '@/components/ui/cards/NewsCard';
-import NewsCardSkeleton from '@/components/ui/cards/NewsCardSkeleton';
 import TourVideo from './TourVideo';
 
 interface NewsSectionProps {

@@ -2,12 +2,8 @@ import {
   AcademicCapIcon,  
   BookOpenIcon,   
   ChartBarIcon,    
-  DocumentTextIcon,  
   // Keep these alternatives handy in case they match your screenshot better:
-  UserGroupIcon,   
-  TrophyIcon,        
-  CheckBadgeIcon,     
-  BuildingLibraryIcon 
+  UserGroupIcon,  
 } from '@heroicons/react/24/outline';
 
 

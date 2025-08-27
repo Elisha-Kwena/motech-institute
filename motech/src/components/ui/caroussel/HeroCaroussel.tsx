@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 const herodata = [
     {

@@ -3,7 +3,6 @@
 import clsx from 'clsx';
 import { MobileNavItems } from "./MobileNavItems";
 import { mainNav } from "@/lib/constants/Navigation";
-import { NavItem } from "@/lib/constants/Navigation";
 
 interface MobileNavProps {
   sidebarOpen: boolean;
