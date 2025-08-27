@@ -11,19 +11,19 @@ const stats=[
     {
     id:1,
     label:"Schools",
-    number:7,
+    number:8,
     banner:faSchool
   },
   {
     id:2,
     label:"+ Total Courses",
-    number:400,
+    number:40,
     banner:faBook
   },
   {
     id:3,
     label:"+ Skilled Lecturers",
-    number:750,
+    number:50,
     banner:faChalkboardTeacher
   },
 
@@ -36,7 +36,7 @@ const stats=[
   {
     id:5,
     label:"+ Alumni",
-    number:1500,
+    number:500,
     banner:faUserGraduate
   },
 ]

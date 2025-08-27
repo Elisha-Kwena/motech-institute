@@ -21,13 +21,13 @@ const features = [
   {
     icon: BookOpenIcon,
     title: 'Books & Library',
-    description: 'Access 2M+ resources across our digital archives and state-of-the-art library facilities with 24/7 online availability.',
+    description: 'Access resources across our digital archives and state-of-the-art library facilities with 24/7 online availability.',
      count:"02"
   },
   {
     icon: ChartBarIcon,
     title: 'Career Success',
-    description: 'Join the 95% of graduates who secure employment or continue education within 6 months of completion.',
+    description: 'Be part of our graduate who attain good performance in their level of certification and are of high chances of securing employment upon course completion',
      count:"03"
   },
   {

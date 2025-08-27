@@ -7,7 +7,15 @@ import NavContact from "../../NavContact"
 import { NavItems } from "./NavItems"
 
 import ToggleNavbar from "../../buttons/ToggleNavbar"
-export default function DesktopNav(){
+
+
+interface DesktopNavProps {
+  sidebarOpen: boolean;
+  toggleSidebar: () => void;
+}
+
+
+export default function DesktopNav({ sidebarOpen, toggleSidebar }: DesktopNavProps){
     return(
         <>
         <header className="w-full flex flex-col bg-white fixed top-0 left-0 z-50">
@@ -51,7 +59,7 @@ export default function DesktopNav(){
                     <NavContact/>
                 </div>
                 <div className="lg:hidden flex items-center justify-center">
-                    <ToggleNavbar/>
+                    <ToggleNavbar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
                 </div>
             </div>
             <div className="hidden lg:block w-full p-1 bg-blue-800">

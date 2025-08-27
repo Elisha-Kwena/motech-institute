@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { programs } from "@/lib/data/Programs";
 import { Program } from "@/types/program";
 
 interface ProgramCardProps{
@@ -24,8 +23,8 @@ export default function ProgramCard({program}:ProgramCardProps){
             <div className="w-full flex flex-col p-4 pb-2">
                 <h1 className="text-blue-800 font-bold text-xl">{program.title}</h1>
                 <p className="text-md text-black">{program.description}</p>
-                 <div className="w-full opacity-0 items-center justify-start mt-2 group-hover:opacity-100 transition-all duration-300">
-                    <Link href={program.link} className="text-blue-500 hover:text-red-600 hover:underline">See Opportunities</Link>
+                 <div className="w-full items-center justify-start mt-2  transition-all duration-300">
+                    <Link href={`/academics/${program.slug}`} className="text-blue-500 hover:text-red-600 hover:underline">{program.cta}</Link>
                 </div>
             </div>
            
