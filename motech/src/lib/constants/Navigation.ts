@@ -60,15 +60,6 @@ export const mainNav: NavItem[] = [
     title: "Admission",
     href: "/admission",
     description: "Join our community",
-    subitems: [
-      { title: "Apply Now", href: "/admission/apply", description: "Start your application" },
-      { title: "Undergraduate Admission", href: "/admission/undergraduate" },
-      { title: "Graduate Admission", href: "/admission/graduate" },
-      { title: "Financial Aid & Scholarships", href: "/admission/financial-aid" },
-      { title: "Tuition & Costs", href: "/admission/tuition" },
-      { title: "Campus Visits & Tours", href: "/admission/visits" },
-      { title: "Request Information", href: "/admission/request-info" },
-    ],
   },
   {
     title: "Campus Life",
