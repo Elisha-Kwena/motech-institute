@@ -19,17 +19,17 @@ export default function TourVideo(){
                 {/* <PlayButton/> */}
                 <div className="text-center z-20">
                   <h2 className="text-3xl md:text-4xl text-black font-extrabold mb-4">
-                    Experience Our Campus Virtually
+                    Experience Our College Virtually
                   </h2>
                   <p className="text-lg text-white mb-8 max-w-2xl mx-auto">
                     Take a 360° journey through our state-of-the-art facilities, student spaces, 
-                    and beautiful campus grounds without leaving your home.
+                    and beautiful College grounds without leaving your home.
                   </p>
                   <div className="w-full flex items-center justify-center">
                      <PlayButton />
                   </div>
                  
-                  <p className="text-sm text-white mt-4">Watch the 3-minute campus tour</p>
+                  <p className="text-sm text-white mt-4">Watch the 3-minute College tour</p>
                 </div>
            </div>
         </div>

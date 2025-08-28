@@ -20,7 +20,7 @@ export const newsArticles: NewsArticle[] = [
     imageUrl: '/images/news/banner1.jpg',
     date: '2025-07-15',
     author: 'John Smith',
-    category: 'Campus News',
+    category: 'College News',
     slug: 'new-stem-research-center'
   }
 ];

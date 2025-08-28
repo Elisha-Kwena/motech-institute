@@ -18,7 +18,7 @@ const herodata = [
         description:"Become part of our tradition of excellence. Here, you'll find mentors who know your name, friends who become family, and endless opportunities to discover your passions.",
         link:[
             {label:"explore our programs",link:"/programs"},
-            {label:"campus life",link:"/campus-life"},
+            {label:"College life",link:"/College-life"},
         ],
         banner:"/images/hero/banner1.jpg"
     },

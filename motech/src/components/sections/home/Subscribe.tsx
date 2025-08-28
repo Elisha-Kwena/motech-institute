@@ -10,7 +10,7 @@ export default function Subscribe(){
             </div>
             <div className="w-full text-center">
                 <h1 className="text-4xl font-extrabold text-black capitalize">Stay connected</h1>
-                <p className="text-xl text-black text-center max-w-5xl mx-auto">Subscribe to our newsletter and be the first to know about new programs, events, research breakthroughs, and campus updates.</p>
+                <p className="text-xl text-black text-center max-w-5xl mx-auto">Subscribe to our newsletter and be the first to know about new programs, events, research breakthroughs, and College updates.</p>
             </div>
             <form action="" className="w-full flex items-center justify-center gap-4">
                 <input type="text" className="text-black p-3 rounded-md border lg:w-[30%]" placeholder="Email" />

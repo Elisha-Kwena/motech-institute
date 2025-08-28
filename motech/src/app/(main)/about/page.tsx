@@ -167,7 +167,7 @@ export default function AboutPage() {
             <div className="text-blue-700 text-4xl font-bold mb-2">06</div>
             <h3 className="text-xl font-semibold text-gray-800 mb-3">Strategic Location</h3>
             <p className="text-gray-600">
-              Our campus is strategically located for convenient morning and evening classes.
+              Our College is strategically located for convenient morning and evening classes.
             </p>
           </div>
         </div>

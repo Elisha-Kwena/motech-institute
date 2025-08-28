@@ -16,7 +16,7 @@ export const footerNav= [
       { title: "Alumni & Friends", href: "/resources/Alumni" },
       { title: "Student Portal", href: "/" },
       // { title: "IT Support", href: "/resources/it", external: true }, // Example external link
-      // { title: "Campus Map", href: "/resources/map" },
+      // { title: "College Map", href: "/resources/map" },
       // { title: "Academic Calendar", href: "/resources/academic-calendar" },
     ],
   },

@@ -38,7 +38,7 @@ export const mainNav: NavItem[] = [
       { title: "History & Mission", href: "/about" },
       { title: "Leadership & Governance", href: "/about/leadership" },
       // { title: "Facts & Statistics", href: "/about/facts" },
-      // { title: "Campus Map & Virtual Tour", href: "/about/campus-tour" },
+      // { title: "College Map & Virtual Tour", href: "/about/College-tour" },
       // { title: "Diversity, Equity, and Inclusion", href: "/about/dei" },
       { title: "Contact Information", href: "/contact" },
     ],
@@ -62,8 +62,8 @@ export const mainNav: NavItem[] = [
     description: "Join our community",
   },
   // {
-  //   title: "Campus Life",
-  //   href: "/campus-life",
+  //   title: "College Life",
+  //   href: "/College-life",
   //   description: "Student experience",
   // },
   {
@@ -93,7 +93,7 @@ export const mainNav: NavItem[] = [
 //   { title: "About us", href: "/about" },
 //   { title: "Academics", href: "/academics", description: "Explore our programs and courses" },
 //   { title: "Admission", href: "/admission" },
-//   { title: "Campus Life", href: "/campus-life" },
+//   { title: "College Life", href: "/College-life" },
 //   { title: "News&Events", href: "/news" },
 //   { title: "Contact", href: "/contact" },
 // ];

@@ -83,7 +83,7 @@ export default function NewsPage() {
       title: "Open Day & Program Exhibition",
       date: "2023-11-10",
       time: "9:00 AM - 3:00 PM",
-      location: "Main Campus",
+      location: "Main College",
       description: "Prospective students are invited to tour our facilities, meet instructors, and learn about our programs."
     },
     {

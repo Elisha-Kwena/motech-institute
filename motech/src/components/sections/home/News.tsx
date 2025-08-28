@@ -14,7 +14,7 @@ interface NewsSectionProps {
 export default function NewsSection({ 
   limit = 3, 
   showViewAll = true,
-  title = "Campus News & Events",
+  title = "College News & Events",
   description = "Stay updated with the latest happenings, achievements, and announcements from our university community."
 }: NewsSectionProps) {
   const featuredNews = newsArticles.slice(0, limit);
