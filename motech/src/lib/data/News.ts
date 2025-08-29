@@ -19,7 +19,7 @@ export const newsArticles: NewsArticle[] = [
     content: 'Full article content here...',
     imageUrl: '/images/news/banner1.jpg',
     date: '2025-07-15',
-    author: 'John Smith',
+    author: 'Maurice Oracha',
     category: 'College News',
     slug: 'new-stem-research-center'
   }
